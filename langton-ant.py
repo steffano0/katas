@@ -18,4 +18,8 @@ def initialize_grid():
                 matrix[row].append(".")
     return matrix
 
+def move_forward(ant_positionx, ant_positiony):
+    pass
+
+
 print(initialize_grid())
