@@ -12,4 +12,10 @@ def initialize_grid():
     for row in range(10):
         matrix.append([])
         for col in range(10):
-            
+            if row == ant_positiony and col == ant_positionx:
+                matrix[row].append("o")
+            else:
+                matrix[row].append(".")
+    return matrix
+
+print(initialize_grid())
